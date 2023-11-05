@@ -1,25 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import GitHubIssues from './GitHubIssues';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [user,setuser]=useState([])
+  useEffect(()=>{
+    axios.get("https://api.github.com/users/saadpasta")
+    .then((res)=>{setuser(res.data)})
+},[])
+return (
+  
+    <>
+    <a id="name" href="user.html_url">{user.login}</a>
+   <img src={user.avatar_url} alt="image"/>
+    
+   <div>
+      <GitHubIssues />
     </div>
+
+    </>
   );
+    
+ 
 }
 
 export default App;

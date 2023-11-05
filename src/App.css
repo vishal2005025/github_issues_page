@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  *{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBwcHBwgHBwcHBwoHBwcHBw8ICQcKIBEiIiARHx8YHSggGBolGx8VITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRkrLSsrKys3KysrKysrKysrKysrKzc3KysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAABAAIEAwf/xAAZEAEBAQEBAQAAAAAAAAAAAAAAARESAmH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQIE/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwD6sklcqSQJJAkiARQJIgEUARQBEAEUARAJJAkkCSQJJAkkCSQIpAkUCRQoJQDFhQDFhQDA0gZRWAyihACgCSBJIEkgSSBFEEkQRRFBwoAcOLBRiaxAymlgM4GsQMhrEIyGgDKIECIAJIEkgRSApEEURUUYKjiw4KMOHFgDFjWLAZWNYsBnBjeDAZwNAGQ0BGQ0BGUQIAUASQEggYRCKSoRVCjBU0iKDhOIDFhWCjFjWAGQ3gEZDQqjLLbNEZoaoEZDTIgBAiSQGGAwCYDBTGoIYKYYoYKTBGkVFEUEoUIoGQ0BGRWqzRGaGqKqM1lqiiM0NVmiAECBJATAQMajMagphgjUFMMEMGmoYIYilqMxqCoqIEkgFBooM0EURmimiqgrNarNGRWa1WaIKDQARQiIMAwwGCtQwQwVqGMtQVqGMwxFahZIrRZOikIAhUhACyIKKWaqKs00UQVmmgQUECBJAoYCDRZMFahjLQrUMZhFahZhRWiyRWkzp0Cho0CEAVCAioqFVBRSKIKEBFRUBEkgRZIGNMkVoxkg0WSK0WUK3q1nToNatZ1IrWrWdWgdWjRqoQgCCAiCAiCAIJCIJAiEBIQNFkitJkg1pZQrerWVoNadZQNDQgOoaAOhaAICEQQBBIRBIEkgSSBEICQgJZINJk6K1q1lA0tC0DqGoDq0AChoAhIRBIEEgSSBJIEThwGcWN4ZBYxyeW5GpAjz5XD1kMgseXC4e/JnkXLw4XDonk8oZc/C4dPK4Fy5uPi4dPC5DLl4XDp5HImXPwOHRfI5Ujn4XL3sZwSPHkcvawWCR44selgsCMBvAIyigWnWUDetSvNaFeumV46eha9p6anpz9HsWujo9Oftdhp09nty9nsXTp7Pbl7XYadXY7c3a7DTp7HTn7XYae/Q6eHa7E09r6Zvp5droK9LRrz6GiV6aNY1aJWtGsoDqCBJIEkgSSBJIEkgRiQJJAkkASQJJAkkCSQJJAkkCSQP/9k=");
+    
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+img{
+  display: block;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
 }
-
-.App-link {
-  color: #61dafb;
+a{
+ 
+  font-size: 3vw;
+  
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  color:crimson;
+}
+#name{
+  text-decoration: none;
 }

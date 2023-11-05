@@ -13,7 +13,7 @@ function App() {
 return (
   
     <>
-    <a id="name" href="user.html_url">{user.login}</a>
+    <a id="name" href="https://github.com/saadpasta">{user.login}</a>
    <img src={user.avatar_url} alt="image"/>
     
    <div>

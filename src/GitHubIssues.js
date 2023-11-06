@@ -8,7 +8,7 @@ function GitHubIssues() {
 
   useEffect(() => {
     
-        axios.get("https://api.github.com/repos/saadpasta/react-blog-github/issues")
+        axios.get("https://api.github.com/repos/facebook/react/issues")
         .then((res)=>{setIssues(res.data)})
     }, []);
 
